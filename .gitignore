@@ -1,0 +1,6 @@
+# Directorios ignorados
+dist/
+node_modules/
+
+# Configuraciones de entorno
+.env
