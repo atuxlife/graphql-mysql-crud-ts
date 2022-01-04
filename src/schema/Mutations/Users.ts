@@ -26,7 +26,6 @@ export const CREATE_USER = {
             password: encryptPassword
         });
         
-        console.log(res);
         return {...args, id: res.identifiers[0].id, password: encryptPassword};
 
     }
